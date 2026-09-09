@@ -10,8 +10,8 @@
   <style>
     :root { --ink: #251509; --orange: #f46b17; --orange-dark: #c94708; --cream: #fff8ed; --sun: #ffbe3d; --line: #f2d7b3; }
     * { box-sizing: border-box; }
-    body { margin: 0; width: 100%; min-height: 100vh; overflow: hidden; font-family: "DM Sans", sans-serif; color: var(--ink); background: #fff3de; }
-    .app-shell { width: 100%; min-height: 100vh; display: grid; grid-template-rows: auto auto 1fr; position: relative; overflow: hidden; isolation: isolate; }
+    body { margin: 0; width: 100%; min-height: 100vh; font-family: "DM Sans", sans-serif; color: var(--ink); background: #fff3de; }
+    .app-shell { width: 100%; min-height: 100vh; display: grid; grid-template-rows: auto auto 1fr; position: relative; isolation: isolate; }
     .app-shell::before, .app-shell::after { content: ""; position: absolute; border-radius: 999px; z-index: -1; filter: blur(1px); }
     .app-shell::before { width: 38vw; height: 38vw; background: rgba(255, 179, 52, .24); top: -18vw; right: -8vw; }
     .app-shell::after { width: 24vw; height: 24vw; background: rgba(244, 107, 23, .13); bottom: -12vw; left: -7vw; }
@@ -710,7 +710,7 @@
       // ========================================================================
       // PENTING: GANTI URL DI BAWAH INI DENGAN URL APPS SCRIPT ANDA
       // ========================================================================
-      const scriptURL = "https://script.google.com/macros/s/AKfycbzlE_Tw634mjD98tBhl8il7zzu__65zSkEcGzoO2cj_WahNxwCJWQznsbE4ESB3N8aF/exec"; 
+      const scriptURL = "https://script.google.com/macros/s/AKfycbzXGwCQD1Am6sIN37Rw0j3LgCJG_fPn11LNdLMYsNU2VgHAHGgwUpDlln3WRAl5AMAv2g/exec"; 
       // ========================================================================
 
       let currentQuestion = 1;
